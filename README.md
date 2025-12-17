@@ -97,16 +97,14 @@
     │
     ├── evaluation/📍학습 결과
     │   ├── classicalMachineLearning/
-    │   ├── deepLearning/
-    │   └── stacking/
+    │   └── deepLearning/
     │
     ├── inference/📍추론 결과
     │   └── randomforest_final12_inference.csv
     │
     ├── model/📍모델 (용량 문제로 gitignore)
     │   ├── classicalMachineLearning/
-    │   ├── deepLearning/
-    │   └── stacking/
+    │   └── deepLearning/
     │
     ├── src/📍소스 코드
     │   ├── data_preprocess/ 데이터 전처리 코드
@@ -114,12 +112,11 @@
     │   ├── SHAP/ XAI 코드
     │   └── train/ 모델 학습 코드
     │       ├── classicalMachineLearning/ 
-    │       ├── deepLearning/ 
-    │       └── stacking/ 
+    │       └── deepLearning/ 
     │
     └── README.md
 
-classicalMachineLearning, deepLearning, stacking 내부
+classicalMachineLearning, deepLearning 내부
 ```
 ├── SFR_inf_-1/ SFR 이상치를 -1로 대체한 데이터 사용
 ├── SFR_inf_remove/ SFR 이상치를 제외한 데이터 사용
@@ -169,11 +166,6 @@ conda 없는 경우
 ### Deep Learning 학습 예시
 
     python src/train/deepLearning/SFR_inf_-1/FT-Transformer.py
-
-
-### Stacking Ensemble 학습 예시
-
-    python src/train/stacking/lgbm_cat_xg_logreg_stacking.py
 
 
 ### Inference 예시
