@@ -1,0 +1,79 @@
+{
+  "start_time": "2025-11-28 04:52:40",
+  "end_time": "2025-11-28 05:35:45",
+  "best_fold": 4,
+  "best_epoch": 79,
+  "avg_macro_f1": 0.689842952494472,
+  "avg_accuracy": 0.7067837190742219,
+  "avg_val_loss": 0.6384793966824429,
+  "epochs_run": 200,
+  "batch_size": 256,
+  "seed": 42,
+  "device": "cpu",
+  "class_names": [
+    "non",
+    "pre",
+    "post"
+  ],
+  "num_features": 12,
+  "feature_cols": [
+    "StellarMass",
+    "AbsMag_g",
+    "AbsMag_r",
+    "AbsMag_i",
+    "AbsMag_z",
+    "color_gr",
+    "color_gi",
+    "SFR",
+    "BulgeMass",
+    "EffectiveRadius",
+    "VelocityDispersion",
+    "Metallicity"
+  ],
+  "dataset": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/data/Illustris/Illustris_preprocess_SFR_-1.csv",
+  "preprocessing": {
+    "standard_scaler": true,
+    "knn": true,
+    "note": "already applied"
+  },
+  "optimizer": "AdamW",
+  "lr_scheduler": "ReduceLROnPlateau",
+  "early_stopping": {
+    "patience": 15,
+    "min_delta": 0.0
+  },
+  "paths": {
+    "best_ckpt": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/model/deepLearning/SFR_inf_-1/TabM/fold4_best.pt",
+    "train_log": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/deepLearning/SFR_inf_-1/TabM/TabM_train_log_fold4.txt",
+    "test_report": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/deepLearning/SFR_inf_-1/TabM/TabM_test_report_avg.txt",
+    "confusion_matrix_png": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/deepLearning/SFR_inf_-1/TabM/TabM_confusion_matrix_avg.png",
+    "loss_curve_png": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/deepLearning/SFR_inf_-1/TabM/TabM_loss_curve_fold4.png"
+  },
+  "fold_results": [
+    {
+      "fold": 1,
+      "acc": 0.699122106943336,
+      "f1": 0.68056198568366
+    },
+    {
+      "fold": 2,
+      "acc": 0.7063048683160414,
+      "f1": 0.6876772741163769
+    },
+    {
+      "fold": 3,
+      "acc": 0.699122106943336,
+      "f1": 0.6814844276906262
+    },
+    {
+      "fold": 4,
+      "acc": 0.7198723064644852,
+      "f1": 0.7051234132329777
+    },
+    {
+      "fold": 5,
+      "acc": 0.7094972067039106,
+      "f1": 0.6943676617487191
+    }
+  ]
+}

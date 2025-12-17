@@ -1,0 +1,14 @@
+Test time (s): 0.0271
+Accuracy     : 0.8511
+Macro-F1     : 0.4914
+
+[Test] Classification Report
+              precision    recall  f1-score   support
+
+         Non     0.8846    0.9817    0.9306       492
+         Pre     0.5200    0.2131    0.3023        61
+        Post     0.3500    0.1842    0.2414        38
+
+    accuracy                         0.8511       591
+   macro avg     0.5849    0.4597    0.4914       591
+weighted avg     0.8126    0.8511    0.8215       591

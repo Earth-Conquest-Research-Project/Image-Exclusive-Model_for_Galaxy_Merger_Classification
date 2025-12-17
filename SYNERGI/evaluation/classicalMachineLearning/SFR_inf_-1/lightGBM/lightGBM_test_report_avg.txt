@@ -1,0 +1,4 @@
+[Best trial 31] Cross-validation average over 5 folds
+Avg Val_Accuracy : 0.7708
+Avg Val_Macro-F1 : 0.7637
+Avg Val_Loss     : 0.5517

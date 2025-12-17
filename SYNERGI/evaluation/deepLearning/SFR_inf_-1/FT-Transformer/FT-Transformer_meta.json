@@ -1,0 +1,79 @@
+{
+  "start_time": "2025-12-16 22:29:06",
+  "end_time": "2025-12-16 22:43:08",
+  "best_fold": 1,
+  "best_epoch": 59,
+  "avg_macro_f1": 0.6810529303247151,
+  "avg_accuracy": 0.6970470869912211,
+  "avg_val_loss": 0.663755634281613,
+  "epochs_run": 200,
+  "batch_size": 256,
+  "seed": 42,
+  "device": "cpu",
+  "class_names": [
+    "non",
+    "pre",
+    "post"
+  ],
+  "num_features": 12,
+  "feature_cols": [
+    "StellarMass",
+    "AbsMag_g",
+    "AbsMag_r",
+    "AbsMag_i",
+    "AbsMag_z",
+    "color_gr",
+    "color_gi",
+    "SFR",
+    "BulgeMass",
+    "EffectiveRadius",
+    "VelocityDispersion",
+    "Metallicity"
+  ],
+  "dataset": "./data/Illustris/Illustris_preprocess_SFR_-1.csv",
+  "preprocessing": {
+    "standard_scaler": true,
+    "knn": true,
+    "note": "already applied in dataset (MICE)"
+  },
+  "optimizer": "AdamW (model.make_default_optimizer())",
+  "lr_scheduler": "ReduceLROnPlateau(mode='min', patience=3, factor=0.5)",
+  "early_stopping": {
+    "patience": 15,
+    "min_delta": 0.0
+  },
+  "paths": {
+    "best_ckpt": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/model/deepLearning/SFR_inf_-1/FT-Transformer/fold1/best.pt",
+    "train_log": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/evaluation/deepLearning/SFR_inf_-1/FT-Transformer/FT-Transformer_train_log_fold1.txt",
+    "test_report": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/evaluation/deepLearning/SFR_inf_-1/FT-Transformer/FT-Transformer_test_report_avg.txt",
+    "confusion_matrix_png": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/evaluation/deepLearning/SFR_inf_-1/FT-Transformer/FT-Transformer_confusion_matrix_avg.png",
+    "loss_curve_png": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/evaluation/deepLearning/SFR_inf_-1/FT-Transformer/FT-Transformer_loss_curve_fold1.png"
+  },
+  "fold_results": [
+    {
+      "fold": 1,
+      "acc": 0.7190742218675179,
+      "f1": 0.7051307543865071
+    },
+    {
+      "fold": 2,
+      "acc": 0.6935355147645651,
+      "f1": 0.6768908799982918
+    },
+    {
+      "fold": 3,
+      "acc": 0.6943335993615323,
+      "f1": 0.6793202731623259
+    },
+    {
+      "fold": 4,
+      "acc": 0.6791699920191541,
+      "f1": 0.6619721455042463
+    },
+    {
+      "fold": 5,
+      "acc": 0.699122106943336,
+      "f1": 0.6819505985722047
+    }
+  ]
+}

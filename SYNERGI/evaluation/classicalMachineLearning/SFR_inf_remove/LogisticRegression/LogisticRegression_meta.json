@@ -1,0 +1,79 @@
+{
+  "start_time": "2025-11-28 04:32:31",
+  "end_time": "2025-11-28 04:32:38",
+  "best_fold": 1,
+  "best_epoch": 95,
+  "avg_macro_f1": 0.5468417356607749,
+  "avg_accuracy": 0.5542553191489363,
+  "avg_val_loss": 0.902853956261367,
+  "epochs_run": 100,
+  "batch_size": 256,
+  "seed": 42,
+  "device": "cpu",
+  "class_names": [
+    "non",
+    "pre",
+    "post"
+  ],
+  "num_features": 12,
+  "feature_cols": [
+    "StellarMass",
+    "AbsMag_g",
+    "AbsMag_r",
+    "AbsMag_i",
+    "AbsMag_z",
+    "color_gr",
+    "color_gi",
+    "SFR",
+    "BulgeMass",
+    "EffectiveRadius",
+    "VelocityDispersion",
+    "Metallicity"
+  ],
+  "dataset": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/data/Illustris/Illustris_preprocess_SFR_no.csv",
+  "preprocessing": {
+    "standard_scaler": true,
+    "knn": true,
+    "note": "already applied in dataset"
+  },
+  "optimizer": "SGDClassifier",
+  "lr_scheduler": "adaptive lr",
+  "early_stopping": {
+    "patience": 10,
+    "min_delta": 0.0
+  },
+  "paths": {
+    "best_ckpt": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/model/classicalMachineLearning/SFR_inf_remove/LogisticRegression/fold1_best.joblib",
+    "train_log": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_remove/LogisticRegression/LogisticRegression_train_log_fold1.txt",
+    "test_report": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_remove/LogisticRegression/LogisticRegression_test_report_avg.txt",
+    "confusion_matrix_png": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_remove/LogisticRegression/LogisticRegression_confusion_matrix_avg.png",
+    "loss_curve_png": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_remove/LogisticRegression/LogisticRegression_loss_curve_fold1.png"
+  },
+  "fold_results": [
+    {
+      "fold": 1,
+      "acc": 0.5629432624113475,
+      "f1": 0.5565254047827454
+    },
+    {
+      "fold": 2,
+      "acc": 0.5523049645390071,
+      "f1": 0.5444170912011489
+    },
+    {
+      "fold": 3,
+      "acc": 0.5585106382978723,
+      "f1": 0.5509126536938403
+    },
+    {
+      "fold": 4,
+      "acc": 0.549645390070922,
+      "f1": 0.5428041562844456
+    },
+    {
+      "fold": 5,
+      "acc": 0.5478723404255319,
+      "f1": 0.5395493723416941
+    }
+  ]
+}
