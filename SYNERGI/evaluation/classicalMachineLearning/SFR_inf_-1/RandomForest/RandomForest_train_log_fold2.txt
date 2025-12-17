@@ -1,0 +1,2 @@
+[Fold 2] Training RandomForest (best_cfg={'max_depth': 14, 'n_estimators': 150})
+train_time=0.1602s

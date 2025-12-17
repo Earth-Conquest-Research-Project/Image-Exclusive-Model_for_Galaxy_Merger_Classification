@@ -1,0 +1,13 @@
+[Trial 18 Fold 1] Validation Report
+Val_Acc : 0.7705
+Val_F1  : 0.7620
+
+              precision    recall  f1-score   support
+
+         non     0.8366    0.8579    0.8471       394
+         pre     0.7464    0.6764    0.7097       309
+        post     0.7075    0.7525    0.7293       299
+
+    accuracy                         0.7705      1002
+   macro avg     0.7635    0.7623    0.7620      1002
+weighted avg     0.7703    0.7705    0.7696      1002

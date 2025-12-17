@@ -1,0 +1,13 @@
+[Fold 5] Validation report (Best trial 39)
+Val_Accuracy : 0.7572
+Val_Macro-F1 : 0.7570
+
+              precision    recall  f1-score   support
+
+       0-Non     0.7934    0.8013    0.7974       302
+       1-Pre     0.7414    0.7003    0.7203       307
+      2-Post     0.7362    0.7713    0.7533       293
+
+    accuracy                         0.7572       902
+   macro avg     0.7570    0.7577    0.7570       902
+weighted avg     0.7571    0.7572    0.7568       902

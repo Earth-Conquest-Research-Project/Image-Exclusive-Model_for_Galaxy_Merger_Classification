@@ -1,0 +1,12 @@
+[OOF]  Acc=0.7930  MacroF1=0.7928
+[TEST] Acc=0.7970 MacroF1=0.7969
+
+              precision    recall  f1-score   support
+
+         non     0.8329    0.8021    0.8172       379
+         pre     0.8085    0.7493    0.7778       383
+        post     0.7549    0.8415    0.7959       366
+
+    accuracy                         0.7970      1128
+   macro avg     0.7987    0.7977    0.7969      1128
+weighted avg     0.7993    0.7970    0.7969      1128

@@ -1,0 +1,40 @@
+{
+  "start_time": "2025-12-16T22:14:58",
+  "end_time": "2025-12-16T22:14:58",
+  "best_cfg": {
+    "max_depth": 14,
+    "n_estimators": 150
+  },
+  "best_fold": 2,
+  "avg_accuracy": 0.847475076599442,
+  "avg_macro_f1": 0.4730271582296111,
+  "seed": 42,
+  "class_names": [
+    "Non",
+    "Pre",
+    "Post"
+  ],
+  "num_features": 12,
+  "feature_cols": [
+    "StellarMass",
+    "AbsMag_g",
+    "AbsMag_r",
+    "AbsMag_i",
+    "AbsMag_z",
+    "color_gr",
+    "color_gi",
+    "EffectiveRadius",
+    "VelocityDispersion",
+    "Metallicity",
+    "SFR",
+    "BulgeMass"
+  ],
+  "paths": {
+    "cv_results": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_-1/RandomForest/RandomForest_cv5_results.csv",
+    "loss_curve_overall": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_-1/RandomForest/RandomForest_loss_curve.png",
+    "confusion_matrix_avg": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_-1/RandomForest/RandomForest_confusion_matrix_avg.png",
+    "confusion_matrix_single": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_-1/RandomForest/RandomForest_confusion_matrix.png",
+    "full_model": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/model/classicalMachineLearning/SFR_inf_-1/RandomForest/RandomForest_best_fullTrain.pkl",
+    "test_report_avg": "/Users/goldchae/Documents/code/Image-Exclusive-Model_for_Galaxy_Merger_Classification/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_-1/RandomForest/RandomForest_test_report_avg.txt"
+  }
+}

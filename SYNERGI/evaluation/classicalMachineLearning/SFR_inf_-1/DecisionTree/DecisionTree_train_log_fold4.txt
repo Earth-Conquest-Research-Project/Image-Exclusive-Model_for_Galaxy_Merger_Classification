@@ -1,0 +1,2 @@
+[Fold 4] Training DecisionTree (best_depth=20)
+Training time: 0.0565s

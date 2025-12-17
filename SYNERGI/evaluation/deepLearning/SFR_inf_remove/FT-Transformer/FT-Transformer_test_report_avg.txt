@@ -1,0 +1,13 @@
+Accuracy     : 0.6638
+Macro-F1     : 0.6609
+
+[Average Test] Classification Report
+               precision    recall  f1-score   support
+
+           non    0.7364    0.7995    0.7665       379
+           pre    0.6394    0.5587    0.5963       383
+          post    0.6075    0.6333    0.6200       366
+
+      accuracy                        0.6638      1128
+     macro avg    0.6611    0.6639    0.6609      1128
+  weighted avg    0.6617    0.6638    0.6612      1128

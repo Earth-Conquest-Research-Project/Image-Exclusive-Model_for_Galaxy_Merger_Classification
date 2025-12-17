@@ -1,0 +1,4 @@
+[Best Trial 13] 5-Fold CV Average
+Avg Val Accuracy : 0.7573
+Avg Val Macro-F1 : 0.7570
+Avg Val Loss     : 0.5844

@@ -1,0 +1,34 @@
+{
+  "start_time": "2025-11-27T22:20:47",
+  "end_time": "2025-11-27T22:20:48",
+  "best_depth": 20,
+  "best_fold": 3,
+  "avg_accuracy": 0.7163414833154423,
+  "avg_macro_f1": 0.7097735103722346,
+  "seed": 42,
+  "class_names": [
+    "Non",
+    "Pre",
+    "Post"
+  ],
+  "num_features": 12,
+  "feature_cols": [
+    "StellarMass",
+    "AbsMag_g",
+    "AbsMag_r",
+    "AbsMag_i",
+    "AbsMag_z",
+    "color_gr",
+    "color_gi",
+    "EffectiveRadius",
+    "VelocityDispersion",
+    "Metallicity",
+    "SFR",
+    "BulgeMass"
+  ],
+  "paths": {
+    "depth_tuning_loss_curve": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_-1/DecisionTree/DecisionTree_depth_tuning_loss.png",
+    "confusion_matrix_avg": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_-1/DecisionTree/DecisionTree_confusion_matrix_avg.png",
+    "test_report_avg": "/proj/home/ibs/spaceai_2025/ai2271056/SYNERGI/evaluation/classicalMachineLearning/SFR_inf_-1/DecisionTree/DecisionTree_test_report_avg.txt"
+  }
+}
