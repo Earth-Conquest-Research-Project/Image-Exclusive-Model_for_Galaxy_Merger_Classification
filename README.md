@@ -130,7 +130,7 @@ SFR_inf_-1, SFR_inf_remove, final_12_datasetPhase_complete 내부
 각 카테고리에 해당하는 모델 파일 / 모델 결과 파일
 ```
 
-
+<br/>
 
 ## 🚀 실행 환경
 
@@ -180,6 +180,7 @@ conda 없는 경우
 
     python src/inference/randomForest_final12_inference.py
 
+<br/>
 
 ## 🚀 사용한 오픈소스 라이브러리
 
