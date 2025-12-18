@@ -134,7 +134,7 @@ SFR_inf_-1, SFR_inf_remove, final_12_datasetPhase_complete 내부
 
 ### 📍How to install
 
-    git clone <REPOSITORY_URL>
+    git clone https://github.com/Earth-Conquest-Research-Project/Image-Exclusive-Model_for_Galaxy_Merger_Classification.git
 
 
 ### 📍How to build
@@ -144,12 +144,14 @@ SFR_inf_-1, SFR_inf_remove, final_12_datasetPhase_complete 내부
 
     conda create -n test-env python=3.9 -y
     conda activate test-env
+    cd Image-Exclusive-Model_for_Galaxy_Merger_Classification
     pip install -r requirements.txt
 
 conda 없는 경우
 
     python3 -m venv test-env
     source test-env/bin/activate
+    cd Image-Exclusive-Model_for_Galaxy_Merger_Classification
     pip install -r requirements.txt
 
 ### 📍How to test
@@ -199,8 +201,8 @@ conda 없는 경우
 
 - **Classical ML 모델들이 전반적으로 Deep Learning 모델보다 높은 성능**을 보임
 - 특히 **Random Forest 모델**이
-  - Accuracy **0.8324**
-  - Macro-F1 **0.8293**
+  - Accuracy **0.8276**
+  - Macro-F1 **0.8238**
   로 가장 우수한 성능을 기록
 - CatBoost, GradientBoost, LightGBM 역시 높은 성능을 보이며  
   물리량 기반 문제에서 Boosting 계열 모델의 강점을 확인
